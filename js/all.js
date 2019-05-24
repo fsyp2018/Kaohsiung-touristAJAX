@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('get', 'https://gist.github.com/fsyp2018/205f39426b0d796185dfc26df45f6c8b', true)
+xhr.open('get', 'https://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97', true)
 xhr.send(null)
 xhr.onload = function () {
     var data = JSON.parse(xhr.responseText);
