@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('get', 'https://github.com/fsyp2018/Kaohsiung-touristAJAX/blob/master/json/data.json', true)
+xhr.open('get', 'https://gist.github.com/fsyp2018/205f39426b0d796185dfc26df45f6c8b', true)
 xhr.send(null)
 xhr.onload = function () {
     var data = JSON.parse(xhr.responseText);
